@@ -1,0 +1,15 @@
+.container {
+    color: white;
+}
+
+.container h1 {
+    margin-block: 15px;
+    font-size: 135px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container hr {
+    margin-block: 20px;
+}
