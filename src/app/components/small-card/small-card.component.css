@@ -1,0 +1,23 @@
+.container {
+    width: 700px;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+}
+
+.photo img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separator {
+    margin-top: 10px;
+}
