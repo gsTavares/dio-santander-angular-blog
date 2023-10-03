@@ -1,5 +1,4 @@
 .container {
-    border: solid white 2px;
     margin-inline: 20px;
     width: 400px;
     height: 500px;
@@ -22,7 +21,11 @@
     font-size: 20px;
 }
 
-.description p {
+.description {
+    margin-top: 20px;
+}
+
+.description p, .description a {
     margin-top: 10px;
     color: #808080;
 }
