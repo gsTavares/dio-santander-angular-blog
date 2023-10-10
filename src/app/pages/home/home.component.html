@@ -4,11 +4,13 @@
 <app-menu-title></app-menu-title>
 <div class="articles">
     <div class="main">
-        <app-big-card></app-big-card>
+        <app-big-card [photo]="'https://i.stack.imgur.com/luaq2.png'" [title]="'New Angular Version!'"
+            [description]="'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum minima excepturi autem consequatur incidunt ea, architecto quia nisi doloremque voluptas aliquid sit tempora maiores repellendus voluptate beatae voluptates itaque! Accusantium.'">
+        </app-big-card>
     </div>
     <div class="others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card [photo]="'https://i.stack.imgur.com/luaq2.png'" [title]="'New Angular Version 1!'"></app-small-card>
+        <app-small-card [photo]="'https://i.stack.imgur.com/luaq2.png'" [title]="'New Angular Version 2!'"></app-small-card>
+        <app-small-card [photo]="'https://i.stack.imgur.com/luaq2.png'" [title]="'New Angular Version 17!'"></app-small-card>
     </div>
 </div>

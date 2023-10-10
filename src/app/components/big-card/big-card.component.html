@@ -1,20 +1,16 @@
 <div class="container">
     <div class="photo">
-        <img src="https://i.stack.imgur.com/luaq2.png" alt="" srcset="" height="200px">
+        <img [src]="photo" alt="" srcset="" height="200px">
     </div>
     <div class="title">
         <h1>
-            <a href="#">New Angular version!</a>
+            <a href="#">{{ title }}</a>
         </h1>
     </div>
     <div class="description">
         <p>
             <a href="#">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam facilis expedita iste blanditiis
-                tenetur
-                sed asperiores earum impedit architecto voluptatem doloremque enim ex repudiandae dolores alias,
-                pariatur
-                tempora cupiditate saepe!
+                {{ description }}
             </a>
         </p>
     </div>
